@@ -4,5 +4,6 @@
   "dl_tg": "https://t.me/HKKU888",
   "min_v": "1.20",
   "forced": false,
-  "uninstall": false
+  "uninstall": false,
+  "require_activation": true
 }
