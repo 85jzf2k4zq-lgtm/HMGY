@@ -1,13 +1,1 @@
-name: Purge jsDelivr cache
 
-on:
-  push:
-    paths:
-      - 'version.json'
-
-jobs:
-  purge:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Purge version.json on jsDelivr
-        run: curl -s "https://purge.jsdelivr.net/gh/85jzf2k4zq-lgtm/HMGY@main/version.json"
